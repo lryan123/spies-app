@@ -17,6 +17,15 @@ function OutreachPage() {
 
             <section className='outreach-info-section'>
                 <img className='outreach-img-one' src={OutReachOne} />
+                <div className='transparent-container'>
+                    <p className='transparent-text'>
+                    SPIES is a University of Auckland, student-led association dedicated to supporting Māori and Pacific Island students studying engineering at the University of Auckland. Outside of the University, SPIES aims to promote engineering to all of our aiga, to help increase the Māori and Pasifika presence within the engineering industry. 
+                    <br />
+                    SPIES is actively involved within the faculty of engineering, university and the community. To encourage students to be more involved during their time at university, SPIES organises events and workshops which build the students' character through a friendly and supportive environment.
+                    <br />
+                    With a 200+ member cohort, and increasing numbers each year, SPIES wants to invest in these students and help them in every way possible. We realise the importance of teamwork and making connections with the wider engineering community; and understand that our members need help in taking the first step towards building a professional profile for themselves.
+                    </p>
+                </div>
             </section>
         </>
     )
