@@ -1,0 +1,100 @@
+@media (max-width: 918px) {
+    .footer-content-container {
+        flex-direction: column;
+        align-items: center;
+        height: 800px !important;
+        justify-content: none;
+    } 
+}
+
+.footer-content-container {
+    display: flex;
+    background-color: #F9F6EE;
+    width: auto;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.social-link:hover {
+    opacity: 0.7;
+}
+
+.social-media-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.full-social-icon {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    width: 40px;
+}
+
+.facebook-color {
+    color: #485A96
+}
+
+.insta-color {
+    color: #D82D7E;
+}
+
+.linkedin-color {
+    color: #0077B5;
+}
+
+.tiktok-color {
+    color: black;
+}
+
+.social-names {
+    font-size: 10px;
+    font-family: 'Luckiest Guy', arial;
+    margin: 0 0 0 5px;
+    padding: top;
+    display: inline-block;
+}
+
+.spies-logo{
+    flex-basis: 300px;
+    width: 200px;
+}
+
+.content-details {
+    flex-basis: 300px;
+}
+
+.header-of-details {
+    color: black;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.footer-para {
+    color: black;
+    font-weight: 300;
+    max-width: 140px;
+    margin: 5px;
+}
+
+.para-container {
+    flex: 1;
+    position: relative 
+}
+
+.para-container .para-copyright {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -220%);
+}
+
+.para-copyright {
+    margin-left: auto;
+    margin-right: auto;
+    width: 37.5em;
+    font-weight: 300;
+    color: black;
+    font-size: 8px;
+}

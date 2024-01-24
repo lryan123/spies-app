@@ -1,0 +1,85 @@
+.content-container {
+    margin: 0;
+
+    height: 400px;
+    background: rgba(72, 43, 128, 0.6);
+    box-shadow: 40px 30px 4px rgba(0, 0, 0, 0.25);
+
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+}
+
+.description-container {
+    flex-basis: 500px;
+    display: grid;
+    grid-template-rows: 1fr auto auto; /* Adjusted grid-template-rows */
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    flex-basis: 400px;
+    height: 300px;
+    width: 200px;
+    border-radius: 80px;
+    object-fit: cover;
+}
+
+.card-header {
+    background: -webkit-linear-gradient(black, #482B80);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 60px;
+    font-family: Luckiest Guy, arial;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 10px auto;
+}
+
+.card-para {
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: Josefin Sans, arial;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+.link-button {
+    display: block;
+    margin: 15px auto;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 6px;
+    background: none;
+    border: 2px solid black;
+}
+
+.carousel__btn {
+    flex-basis: 50px;
+    margin: 0 auto;
+    border: none;
+    background: none;
+}
+
+.carousel__btn:active {
+    box-shadow: none;
+}
+
+.img-button {
+    cursor: pointer;
+    width: 100px;
+}
+
+.rotated-button {
+    transform: rotate(180deg);
+}
