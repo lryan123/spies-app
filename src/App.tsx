@@ -14,7 +14,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Homepage />}/>
                 <Route path="/AboutUs" element={<AboutPage />}/>
-                <Route path="/OutReach" element={<OutreachPage />}/>
+                    <Route path="/OutReach" element={<OutreachPage />}/>
             </Routes>
 
             <Footer />

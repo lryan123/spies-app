@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import OutreachForm from './components/OutreachForm'
 import './OutreachPage.css'
 
 const titleString: string = "SPIES SI'I OUTREACH"
@@ -15,7 +16,8 @@ function OutreachPage() {
 
             <section className="outreach-info-section">
                 <div className="outreach-background-image-one"></div>
-                    <div className="overlay-container">
+                <h2 className='transparent-header'>SCHOOL OUTREACH</h2>
+                <div className="overlay-container">
                     <div className="overlay-content">
                         <p className='transparent-text'>
                         SPIES is a University of Auckland, student-led association dedicated to supporting Māori and Pacific Island students studying engineering at the University of Auckland. Outside of the University, SPIES aims to promote engineering to all of our aiga, to help increase the Māori and Pasifika presence within the engineering industry. 
@@ -30,20 +32,16 @@ function OutreachPage() {
                 </div>
             </section>
 
-            <form className='form-container'>
-                <h2 className='form-title'>GET IN TOUCH WITH OUR TEAM</h2>
+            <section className='form-container'>
+                <h3 className='form-title'>GET IN TOUCH WITH OUR TEAM</h3>
                 <p className='form-text'>Interested in our Outreach program, we would love to hear about it.</p>
                 <p className='form-text form-italic'><span style={{ color: "red" }}>&#42;</span>Indicates Required Fields</p>
                 <div className='fields-container'>
                     <div className='input-fields-container'>
-                        
-                    </div>
-                    <div className='message-field-container'>
-
+                        <OutreachForm />
                     </div>
                 </div>
-            </form>
-
+            </section>
         </>
     )
 }
