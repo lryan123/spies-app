@@ -16,19 +16,34 @@
   display: flex;
 }
 
+.outreach-background-image-two {
+  flex: 1;
+  height: 100%;
+  background-image: url('./assets/OutReach(2).jpg');
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+}
+
 .overlay-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: absolute;
   z-index: 0.5;
   max-width: 80%; /* Adjust the width of the transparent overlay as needed */
   max-height: 80%; /* Adjust the height of the transparent overlay as needed */
-  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
   /* You can customize the styling of the overlay container further if needed */
 }
 
+.overlay-content {
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .transparent-header {
-  top: 8%;
   z-index: 1;
   font-size: 6vw;
   font-family: Luckiest Guy, Arial, sans-serif;
@@ -38,6 +53,14 @@
   -webkit-text-fill-color: transparent;
   margin: 0;
   position: absolute;
+}
+
+.school {
+  top: -5%;
+}
+
+.communities {
+  top: -10%;
 }
 
 .transparent-text {
@@ -54,13 +77,14 @@
 }
 
 .form-container {
-    padding: 7vh 7vw;
+    padding: 7vh 7vw 0 7vw;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: #482B80;
     display: flex;
     flex-direction: column;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .form-title  {
@@ -74,7 +98,7 @@
 }
 
 .form-text {
-    margin: 0;
+    margin: 1vh 0;
     color: white;
     font-size: 1.5vw;
 }

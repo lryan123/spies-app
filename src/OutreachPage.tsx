@@ -16,8 +16,8 @@ function OutreachPage() {
 
             <section className="outreach-info-section">
                 <div className="outreach-background-image-one"></div>
-                <h2 className='transparent-header'>SCHOOL OUTREACH</h2>
                 <div className="overlay-container">
+                    <h2 className='transparent-header school'>SCHOOL OUTREACH</h2>
                     <div className="overlay-content">
                         <p className='transparent-text'>
                         SPIES is a University of Auckland, student-led association dedicated to supporting Māori and Pacific Island students studying engineering at the University of Auckland. Outside of the University, SPIES aims to promote engineering to all of our aiga, to help increase the Māori and Pasifika presence within the engineering industry. 
@@ -35,10 +35,21 @@ function OutreachPage() {
             <section className='form-container'>
                 <h3 className='form-title'>GET IN TOUCH WITH OUR TEAM</h3>
                 <p className='form-text'>Interested in our Outreach program, we would love to hear about it.</p>
-                <p className='form-text form-italic'><span style={{ color: "red" }}>&#42;</span>Indicates Required Fields</p>
-                <div className='fields-container'>
-                    <div className='input-fields-container'>
-                        <OutreachForm />
+                <p className='form-text form-italic'><span style={{ color: "red" }}>&#42;</span> Indicates Required Fields</p>
+                <OutreachForm /> 
+            </section>
+
+            <section className="outreach-info-section">
+                <div className="outreach-background-image-two"></div>
+                <div className="overlay-container">
+                    <h2 className='transparent-header communities'>OUR COMMUNITIES</h2>
+                    <div className="overlay-content">
+                        <p className='transparent-text'>
+                        Outside of school visits, SPIES also finds the time to get out into the community to spread awareness of the pathways that engineering can take you. Through interactive games and activities, as well as offering our fresh experiences (both academic and professional), we hope to give back to the communities that we are a part of.
+                        <br />
+                        <br />
+                        If would like us to attend your community event, feel free to get in contact with us!
+                        </p>
                     </div>
                 </div>
             </section>

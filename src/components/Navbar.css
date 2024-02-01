@@ -62,7 +62,7 @@
         border: none !important;
     } */
 
-    #menu-checkbox:checked ~ .navbar-buttons-container{ /* ~ affects a siblings*/
+    #menu-checkbox:checked ~ .navbar-buttons-container{ /* ~ affects a sibling */
         flex-basis: 400px !important;
         overflow: auto;
         transition: all 0.5s cubic-bezier(.68, -0.55, 0.27, 1.55);

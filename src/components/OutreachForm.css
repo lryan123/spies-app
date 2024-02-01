@@ -1,0 +1,105 @@
+.outreach-form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+}
+
+.four-field-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.field-container {
+    margin: 0;
+    width: 50%;
+}
+
+.field-container-message {
+    flex-basis: 100%;
+}
+
+.form-field {
+    display: block;
+    margin: 5vh 0 1vh 0;
+}
+
+.input-field {
+    width: 100%;
+    height: 4vh;
+    background-color: #F9F6EE;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.message-field {
+    background-color: #F9F6EE;
+    border: 3px dot black;
+    color: black;
+    width: 100%;
+    min-width: 5vw;
+    max-width: auto;
+    height: 30vh;
+    min-height: 2vh;
+    max-height: 30vh;
+    resize: none;
+}
+
+.form-button {
+  background-color: #F9F6EE;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  color: #482B80;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: Luckiest Guy, ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 1.2rem;
+  text-align: center;
+  text-decoration: none solid #6B7280;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  flex-basis: 100%;
+  padding: auto;
+  margin: 5vh auto;
+}
+
+.form-button:hover {
+  background-color: #8b69d0;
+  color: #F9F6EE;
+}
+
+.form-button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.error-message {
+    color: red;
+    font-family: Josefin Sans, sans-ser;
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-style: italic;
+    margin: 1vh 0 4vh 0;
+    display: block;
+}
+
+@media (min-width: 768px) {
+  .form-button {
+    padding: .75rem 1.5rem;
+  }
+}
