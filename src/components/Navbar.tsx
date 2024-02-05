@@ -17,7 +17,7 @@ export default function Navbar() : JSX.Element {
             <div className="navbar-buttons-container">
                 <Link to="/"><button className="selected-navbar-button">SPIES UOA</button></Link>
                 <Link to="/AboutUs"><button className="navbar-button">ABOUT US</button></Link>
-                <button className="navbar-button">STUDENTS</button>
+                <Link to="/Students"><button className="navbar-button">STUDENTS</button></Link>
                 <Link to="/OutReach"><button className="navbar-button">OUTREACH</button></Link>
                 <button className="navbar-button">OUR PARTNERS</button>
                 <button className="navbar-button">OUR ALUMNI</button>

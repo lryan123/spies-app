@@ -4,6 +4,7 @@ import AboutPage from "./AboutPage"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import OutreachPage from "./OutreachPage"
+import HistoryPage from "./HistoryPage"
 
 function App() {
     
@@ -14,7 +15,8 @@ function App() {
             <Routes>
                 <Route path="/" element={<Homepage />}/>
                 <Route path="/AboutUs" element={<AboutPage />}/>
-                    <Route path="/OutReach" element={<OutreachPage />}/>
+                <Route path="/Students" element={<HistoryPage />} />
+                <Route path="/OutReach" element={<OutreachPage />}/>
             </Routes>
 
             <Footer />

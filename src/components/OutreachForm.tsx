@@ -73,7 +73,7 @@ function OutreachForm() {
 
         <div className='field-container'>
           <label className='form-field'>
-            CONTACT FULL NAME:<span style={{ color: "red" }}>&#42;</span>
+            FULL NAME:<span style={{ color: "red" }}>&#42;</span>
             </label>
             <Controller
               name="fullName"
