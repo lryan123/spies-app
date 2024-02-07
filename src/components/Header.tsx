@@ -1,10 +1,10 @@
-import spiesLogo from '../assets/SPIES_Full_Logo.png';
-import './Header.css';
+import spiesLogo from '../assets/SPIES_Full_Logo.png'
+import './Header.css'
 
 type Props = {
-  title: string;
-  para: JSX.Element[];
-};
+  title: string
+  para: JSX.Element[]
+}
 
 function Header({ title, para }: Props): JSX.Element {
   return (
@@ -15,7 +15,7 @@ function Header({ title, para }: Props): JSX.Element {
         <div className='text-para'>{para}</div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Header;
+export default Header

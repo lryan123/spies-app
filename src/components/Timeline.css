@@ -1,0 +1,20 @@
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: #482B80;
+    border-top: 0.25em gray solid;
+    border-bottom: 0.25em gray solid;
+}
+
+.timeline-container::after {
+    background-color: gray;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%;
+}

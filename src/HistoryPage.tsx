@@ -12,6 +12,7 @@ function HistoryPage() {
             </section>
 
             <Timeline />
+
         </>
     )
 }
