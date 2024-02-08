@@ -4,7 +4,6 @@
     background-image: url('./assets/SamoanDance.jpg');
     background-size: cover;
     background-position: center top;
-    filter: grayscale(100%);
     position: relative;
 }
 
@@ -18,12 +17,23 @@
     flex-direction: column;
 }  
 
+.history-header-container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%); /* Change the color and opacity as needed */
+  }
+
 .history-title {
     font-family: Martel, arial;
     margin: 0;
     font-weight: 400;
     font-size: 10vw;
-    background: -webkit-linear-gradient(white, black);
+    background: -webkit-linear-gradient(black, gray);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -33,7 +43,7 @@
     font-family: Josefin Sans, arial;
     font-weight: 400;
     font-size: 2vw;
-    background: -webkit-linear-gradient(white, black);
+    background: -webkit-linear-gradient(black, gray);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
