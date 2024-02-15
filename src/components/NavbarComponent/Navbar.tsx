@@ -7,9 +7,9 @@ export default function Navbar() : JSX.Element {
         <nav className="navbar">
             <div className="header-container">
                 <div className='nav-title'>
-                    <h1>SOUTH PACIFIC INDIGENOUS</h1>
+                    <h1 className='navbar-title'>SOUTH PACIFIC INDIGENOUS</h1>
                     <br/>
-                    <h1 className='center-title'> ENGINEERING STUDENTS</h1>
+                    <h1 className='center-title navbar-title'> ENGINEERING STUDENTS</h1>
                 </div>
             </div>
             <input type='checkbox' id='menu-checkbox' />

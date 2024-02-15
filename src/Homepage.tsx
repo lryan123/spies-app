@@ -1,5 +1,5 @@
 //components
-import CardItem from './components/CardItem'
+import CardItem from './components/CardComponent/CardItem'
 
 // css
 import './Homepage.css'

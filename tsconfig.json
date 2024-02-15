@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "src/components/OutreachForm.tsx"],
+  "include": ["src", "src/components/OutreachComponent/OutreachForm.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

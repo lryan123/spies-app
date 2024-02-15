@@ -1,4 +1,4 @@
-import spiesLogo from '../assets/SPIES_Full_Logo.png'
+import spiesLogo from '../../assets/SPIES_Full_Logo.png'
 import './Header.css'
 
 type Props = {

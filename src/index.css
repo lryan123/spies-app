@@ -19,16 +19,6 @@ body {
   padding: 0;
 }
 
-h1 {
-  margin: 0;
-  background: -webkit-linear-gradient(black, #482B80);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-  max-width: 20em; /* Adjust the max-width for h1 */
-}
-
 button {
   font-family: Josefin Sans, sans-ser;
   color: black;

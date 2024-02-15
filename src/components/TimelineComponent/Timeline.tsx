@@ -1,4 +1,4 @@
-import TimelineData from '../data/timelineData.json'
+import TimelineData from '../../data/timelineData.json'
 import TimelineItem from './TimelineItem'
 import './Timeline.css'
 

@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom"
 import Homepage from "./Homepage"
 import AboutPage from "./AboutPage"
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
+import Navbar from "./components/NavbarComponent/Navbar"
+import Footer from "./components/FooterComponent/Footer"
 import OutreachPage from "./OutreachPage"
 import HistoryPage from "./HistoryPage"
 

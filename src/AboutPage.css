@@ -1,3 +1,173 @@
-.main {
+.about-us-info-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+  }
+  
+.about-us-background-image-one {
+    flex: 1;
+    height: 100%;
+    background-image: url('./assets/IMG_0516.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+  
+.about-us-background-image-two {
+    flex: 1;
+    height: 100%;
+    background-image: url('./assets/IMG_6048.jpg');
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+}
+  
+.overlay-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 0.5;
+    max-width: 80%; /* Adjust the width of the transparent overlay as needed */
+    max-height: 80%; /* Adjust the height of the transparent overlay as needed */
+    /* You can customize the styling of the overlay container further if needed */
+}
+
+.overlay-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 0.5;
+    max-width: 80%; /* Adjust the width of the transparent overlay as needed */
+    max-height: 80%; /* Adjust the height of the transparent overlay as needed */
+    /* You can customize the styling of the overlay container further if needed */
+}
+  
+.overlay-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overlay-content-purple {
+    background-color: rgba(72, 43, 128, 0.8); /* Transparent white background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transparent-text {
+    max-width: 100%;
+    margin: 50px 30px 30px 30px;
+    height: auto;
+    text-align: center;
+    color: black;
+    font-size: 1.5vw;
+    font-family: Josefin Sans, arial;
+    font-weight: 400;
+    line-height: 2.5vw;
+    word-wrap: break-word;
+}
+
+.transparent-text-white {
+    max-width: 100%;
+    margin: 50px 30px 30px 30px;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+    font-family: Josefin Sans, arial;
+    font-weight: 400;
+    line-height: 2.5vw;
+    word-wrap: break-word;
+}
+
+.objective-header-container {
+    width: 100%;
+    height: 120px;
+    background-color: #F9F6EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.objective-header {
+    background: -webkit-linear-gradient(black, #482B80);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8vh;
+    font-family: Luckiest Guy, Arial, Helvetica, sans-serif;
+}
+
+.first-objective-container {
+    width: 100%;
+    height: auto;
+    background-color: #482B80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-objective-header {
+    margin: 10vh 0 0 0;
+    background: -webkit-linear-gradient(white, #482B80);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6vh;
+    font-family: Luckiest Guy, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.objective-one-content {
+    margin-top: 30px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.goal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 2vw;
+    max-height: 700px;
+}
+
+.goal-image {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.goal-header {
+    margin: 2vh 0 2vh 0;
+    background: -webkit-linear-gradient(white, #482B80);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5em;
+    font-family: Luckiest Guy, Arial, Helvetica, sans-serif;
+}
+
+.goal-text {
     margin: 0;
+    max-width: 400px;
+    text-align: center;
+    line-height: 3vh;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .objective-one-content {
+        flex-direction: column;
+    }
 }

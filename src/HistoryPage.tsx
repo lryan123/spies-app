@@ -1,5 +1,5 @@
 import './HistoryPage.css'
-import Timeline from './components/Timeline'
+import Timeline from './components/TimelineComponent/Timeline'
 
 function HistoryPage() {
     return (

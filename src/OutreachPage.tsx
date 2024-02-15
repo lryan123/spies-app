@@ -1,5 +1,5 @@
-import Header from './components/Header'
-import OutreachForm from './components/OutreachForm'
+import Header from './components/HeaderComponent/Header'
+import OutreachForm from './components/OutreachComponent/OutreachForm'
 import './OutreachPage.css'
 
 const titleString: string = "SPIES SI'I OUTREACH"

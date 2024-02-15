@@ -67,7 +67,7 @@
     {
         "text": "SPIES' first 'Winter Retreat'",
         "date": "2001",
-        "icon": "../../public/snowman.svg"
+        "icon": "/snowman.svg"
     },
     {
         "text": "The creation of three part time positions centred around Māori and Pasifika equity; positions filled by Arahia, Manu, and Chris",
@@ -127,7 +127,7 @@
     {
         "text": "Pacific Tour to Samoa",
         "date": "2007",
-        "icon": "../../public/samoa.svg"
+        "icon": "/samoa.svg"
     },
     {
         "text": "Jim Peters, Vice Chancellor for Maori, organised funding for SPIES students through the university for the personal and professional development of students",

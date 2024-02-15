@@ -1,9 +1,9 @@
 import './Footer.css'
-import blackandwhite from '../assets/FINALpurpleNoboxblack.png'
-import facebook from '../assets/facebook.svg'
-import insta from '../assets/instagram.svg'
-import linkedin from '../assets/linkedin.svg'
-import tiktok from '../assets/tik-tok.svg'
+import blackandwhite from '../../assets/FINALpurpleNoboxblack.png'
+import facebook from '../../assets/facebook.svg'
+import insta from '../../assets/instagram.svg'
+import linkedin from '../../assets/linkedin.svg'
+import tiktok from '../../assets/tik-tok.svg'
 
 export default function Footer() : JSX.Element {
     return (

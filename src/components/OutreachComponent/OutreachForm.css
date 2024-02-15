@@ -88,6 +88,10 @@
   outline-offset: 2px;
 }
 
+.form-button:active {
+  cursor: wait;
+}
+
 .error-message {
     color: red;
     font-family: Josefin Sans, sans-ser;
