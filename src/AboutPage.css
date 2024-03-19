@@ -106,20 +106,40 @@
 }
 
 .first-objective-container {
+    background-color: #482B80;
+}
+
+.second-objective-container {
+    background-color: #F9F6EE;
+    margin-bottom: 20px;
+}
+
+.first-objective-container,
+.second-objective-container {
     width: 100%;
     height: auto;
-    background-color: #482B80;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .first-objective-header {
-    margin: 10vh 0 0 0;
     background: -webkit-linear-gradient(white, #482B80);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.second-objective-header {
+    background: -webkit-linear-gradient(black, #482B80);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.first-objective-header,
+.second-objective-header {
+    margin: 10vh 0 0 0;
     font-size: 6vh;
     font-family: Luckiest Guy, Arial, Helvetica, sans-serif;
     text-align: center;

@@ -80,6 +80,13 @@ function AboutPage() {
               </div>
           </div>
         </section>
+
+        <section className='second-objective-container'>
+          <h2 className='second-objective-header'>1. Support the well-being of Our Members</h2>
+          <div>
+
+          </div>
+        </section>
       
     </div>
   );
